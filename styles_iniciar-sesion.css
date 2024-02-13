@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(206, 204, 204);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.list li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+    transition: all 0.3s;
+    user-select: none;
+}
+
+.list li:hover{
+    background-color: rgb(98, 189, 98);
+    cursor: pointer;
+}
+
+.list li i{
+    margin-right: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+h2{
+    color: rgb(79, 79, 211);
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(188, 183, 192);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+input{
+    margin: 5px;
+    width: 250px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid rgb(197, 192, 192);
+    outline: none;
+    text-align: center;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+button{
+    margin: 20px;
+    cursor: pointer;
+    border: 5px solid rgb(170, 167, 167);
+    outline: none;
+    background-color: rgb(170, 167, 167);
+    border-radius: 15px;
+    padding: 3px;
+}
+
+button:hover{
+    background-color: rgb(98, 189, 98);
+    border: 5px solid rgb(98, 189, 98);
+    cursor: pointer;
+}
+
+.validacion{
+    color: red;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 250px;
+}
+
+.footer p{
+    font-size: 13px;
+}
